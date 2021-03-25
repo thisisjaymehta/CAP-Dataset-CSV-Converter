@@ -15,3 +15,4 @@ Notes:
 1. Make sure your free diskspace is more than 100GB
 2. Edit `files.py` if you want to work with only part of dataset. By default it will convert all edf files
 3. It will take looong time to process. So if you decide to leave computer running, make sure your computer don't go to sleep automatically after some time.
+4. This code will strip csv to 10% of original edf data. For eg, `brux1.edf` converted to `brux1.csv` have 7342592 rows. But I minify data to include first 734259 rows only.
